@@ -7,7 +7,7 @@
   text-align: center;
 }
 .content{
-  margin: 80px auto;
+  margin: 60px auto;
   width: 993px;
 }
 a, a:hover{
@@ -16,6 +16,15 @@ a, a:hover{
 li{
   list-style-type: none;
   margin: 0;
+}
+h1{
+  font-size: 36px;
+}
+h2{
+  font-size: 22px;
+}
+h3{
+  font-size: 24px;
 }
 /* BLUE SECTION RULES */
 .blue{
@@ -33,6 +42,8 @@ li{
 }
 .blue p{
   color: #9ba6b7;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 /* WHITE SECTION RULES */
@@ -42,9 +53,12 @@ li{
 }
 .white h1, .white h2{
   color: black;
+  margin-bottom: 40px;
 }
 .white p{
   color: #9ba6b7;
+  margin-top: 16px;
+  font-size: 20px;
 }
 
 /* VARIOUS RULES AND DIMENSIONS*/
@@ -54,12 +68,23 @@ li{
   width: 134px;
   margin-top: 150px;
 }
+#box1{
+  margin-top: 150px;
+}
 #box1 *{
   text-align: left;
   margin-top: 20px;
 }
+#box1 span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-top: -38px;
+}
 #box1 li{
-  margin:0;
+  margin: 0;
+  display: inline-block;
+  margin-right: 32px;
 }
 #box2 img{
   height: auto;
@@ -76,11 +101,14 @@ li{
   text-align: left;
 }
 .plan{
-  margin-top: 100px;
+  margin-top: 70px;
 }
 #screenshot1 img{
   width: 278px;
   height: auto;
+}
+.pomodoro{
+  margin: 80px auto;
 }
 #screenshot2 img, #screenshot3 img, #screenshot4 img{
   width: 240px;
@@ -89,6 +117,7 @@ li{
 #screenshot5 img, #screenshot6 img{
   width: 300px;
   height: auto;
+  margin: auto 20px;
 }
 footer h4{
   color: black;
