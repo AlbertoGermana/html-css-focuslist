@@ -7,10 +7,16 @@
   text-align: center;
 }
 .content{
-  margin: 0 auto;
+  margin: 80px auto;
   width: 993px;
 }
-
+a, a:hover{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+  margin: 0;
+}
 /* BLUE SECTION RULES */
 .blue{
   background: -webkit-linear-gradient(60deg, #225393, #002351);
@@ -41,16 +47,36 @@
   color: #9ba6b7;
 }
 
-/* IMAGES RULES AND DIMENSIONS*/
+/* VARIOUS RULES AND DIMENSIONS*/
 #logo{
   background: url("../../img/logo.png") no-repeat;
   height: 134px;
   width: 134px;
   margin-top: 150px;
 }
+#box1 *{
+  text-align: left;
+  margin-top: 20px;
+}
+#box1 li{
+  margin:0;
+}
 #box2 img{
   height: auto;
   width: 465px;
+}
+#plan div:first-child{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#plan div:nth-child(2) *{
+  text-align: right;
+}
+#plan div:last-child *{
+  text-align: left;
+}
+.plan{
+  margin-top: 100px;
 }
 #screenshot1 img{
   width: 278px;
