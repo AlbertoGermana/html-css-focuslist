@@ -1,0 +1,14 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+}
+
+@media screen and (min-width: 993px){
+  #box1{
+    padding-right: 60px;;
+  }
+}

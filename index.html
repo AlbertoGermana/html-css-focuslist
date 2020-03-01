@@ -11,9 +11,9 @@
   <body>
     <!-- fascia header blu che contiene un div che contiene 2 blocchi -->
     <header class="col-xs-12 col-md-12 col-lg-12 blue">
-      <div class="content">
-        <div class="col-xs-12 col-md-6 col-lg-6">
-          <div class="logo"></div>
+      <div class="content clearfix">
+        <div id="box1" class="col-xs-12 col-md-6 col-lg-6">
+          <div id="logo"></div>
           <h1>Do more deep work</h1>
           <h2>FocusList is a daily planner & focus app based on Pomodoro technique. It helps you plan your day, stay focused and track your time.</h2>
           <ul>
@@ -21,14 +21,15 @@
             <li><i></i>Mac</li>
           </ul>
         </div>
-        <div id="smartphone" class="col-xs-12 col-md-6 col-lg-6"">
+        <div id="box2" class="col-xs-12 col-md-6 col-lg-6"">
+          <img src="img/smartphone.png" alt="">
         </div>
       </div>
     </header>
     <!-- sezione bianca -->
     <section class="col-xs-12 col-md-12 col-lg-12 white">
-      <div class="content">
-        <div class="col-xs-12 col-offset-md-2 col-md-8 col-offset-lg-4 col-lg-4">
+      <div class="content clearfix">
+        <div class="col-xs-12 col-md-12 col-lg-offset-3 col-lg-6">
           <h1>Plan your perfect day</h1>
           <p>It all starts with planning the day. You wake up, make some coffee and think about what you're doing today. Our daily planner functionality is the best way to keep track of your battle plan for the day.</p>
         </div>
@@ -36,7 +37,9 @@
           <h2>Write today's Focus List</h2>
           <p>Write down all the tasks for today. Split bigger tasks into smaller ones. Plan your day ahead and commit to do everything on your list.</p>
         </div>
-        <div id="screenshot1" class="col-xs-12 col-md-4 col-lg-4"></div>
+        <div id="screenshot1" class="col-xs-12 col-md-4 col-lg-4">
+          <img src="img/screenshot1.png" alt="">
+        </div>
         <div class="col-xs-12 col-md-4 col-lg-4">
           <h2>Timebox each activity</h2>
           <p>For each task, mark your best estimate. FocusList will count everything and show what does your day look like.</p>
@@ -46,22 +49,28 @@
     <!-- sezione blu -->
     <section class="col-xs-12 col-md-12 col-lg-12 blue">
       <div class="content">
-        <div class="col-xs-12 col-offset-md-2 col-md-8 col-offset-lg-2 col-lg-8">
+        <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
           <h1>Focus with the Pomodoro technique</h1>
           <p>Pick a task, do it for 25 minutes. Take a 5 minute break. That was one session. Keep going until the task is done.</p>
         </div>
-        <div class="">
-          <div id="screenshot2" class=""></div>
+        <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-4">
+          <div id="screenshot2" class="">
+            <img src="img/screenshot2.png" alt="">
+          </div>
           <h3>Select task from your list</h3>
           <p>One thing at a time. Always select one task that you’ll be working on, and dedicate your session to it.</p>
         </div>
-        <div class="">
-          <div id="screenshot3" class=""></div>
+        <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-4">
+          <div id="screenshot3" class="">
+            <img src="img/screenshot3.png" alt="">
+          </div>
           <h3>Work for 25 minutes</h3>
           <p>Spend the next 25 minutes to focus, focus, focus on your task. Distractions will wait till your break.</p>
         </div>
-        <div class="">
-          <div id="screenshot4" class=""></div>
+        <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-4">
+          <div id="screenshot4" class="">
+            <img src="img/screenshot4.png" alt="">
+          </div>
           <h3>Take a 5 minute break</h3>
           <p>Take the break even if you still have energy. Assimilate what you’ve learned. Start another cycle refreshed.</p>
         </div>
@@ -70,37 +79,41 @@
     <!-- sezione bianca -->
     <section class="col-xs-12 col-md-12 col-lg-12 white">
       <div class="content">
-        <div class="">
+        <div class="col-xs-12 col-md-12 col-lg-offset-3 col-lg-6">
           <h1>Track time</h1>
-          <h2>FocusList comes with time tracker built in! Was it a good day? Ask your data. Just open Stats and look at the history of sessions/day, what times you worked, and how good were your estimates.</h2>
-          <div id="screenshot5"></div>
-          <div id="screenshot6"></div>
+          <p>FocusList comes with time tracker built in! Was it a good day? Ask your data. Just open Stats and look at the history of sessions/day, what times you worked, and how good were your estimates.</p>
+          <div id="screenshot5" class="col-xs-12 col-md-12 col-lg-6">
+            <img src="img/screenshot5.png" alt="">
+          </div>
+          <div id="screenshot6" class="col-xs-12 col-md-12 col-lg-6">
+            <img src="img/screenshot6.png" alt="">
+          </div>
         </div>
       </div>
     </section>
     <!-- footer -->
-    <footer class="blue">
-      <div class="col-xs-12 col-md-3 col-3">
+    <footer>
+      <div class="col-xs-12 col-md-3 col-lg-3">
         <h4>Apps</h4>
         <ul>
           <li><a href="#">Iphone + Apple Watch</a></li>
           <li><a href="#">Mac</a></li>
         </ul>
       </div>
-      <div class="col-xs-12 col-md-3 col-3">
+      <div class="col-xs-12 col-md-3 col-lg-3">
         <h4>Social</h4>
         <ul>
           <li><a href="#">Twitter</a></li>
         </ul>
       </div>
-      <div class="col-xs-12 col-md-3 col-3">
+      <div class="col-xs-12 col-md-3 col-lg-3">
         <h4>Contact</h4>
         <ul>
           <li><a href="#">Support</a></li>
           <li><a href="#">Feedback</a></li>
         </ul>
       </div>
-      <div class="col-xs-12 col-md-3 col-3">
+      <div class="col-xs-12 col-md-3 col-lg-3">
         <h4>c 2016 FocusList</h4>
       </div>
     </footer>

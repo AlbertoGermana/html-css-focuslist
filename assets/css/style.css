@@ -1,6 +1,72 @@
+/* GENERAL RULES */
 *{
-  border: 1px solid red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+.content{
+  margin: 0 auto;
+  width: 993px;
+}
+
+/* BLUE SECTION RULES */
+.blue{
+  background: -webkit-linear-gradient(60deg, #225393, #002351);
+  width: 100vw;
+}
+.blue h1{
+  color: white;
+}
+.blue h2{
+  color: #6c8dbc;
+}
+.blue ul li i, .blue ul li{
+  color: #6c8dbc;
+}
+.blue p{
+  color: #9ba6b7;
+}
+
+/* WHITE SECTION RULES */
+.white{
+  background-color: whitesmoke;
+  width: 100vw;
+}
+.white h1, .white h2{
+  color: black;
+}
+.white p{
+  color: #9ba6b7;
+}
+
+/* IMAGES RULES AND DIMENSIONS*/
+#logo{
+  background: url("../../img/logo.png") no-repeat;
+  height: 134px;
+  width: 134px;
+  margin-top: 150px;
+}
+#box2 img{
+  height: auto;
+  width: 465px;
+}
+#screenshot1 img{
+  width: 278px;
+  height: auto;
+}
+#screenshot2 img, #screenshot3 img, #screenshot4 img{
+  width: 240px;
+  height: auto;
+}
+#screenshot5 img, #screenshot6 img{
+  width: 300px;
+  height: auto;
+}
+footer h4{
+  color: black;
+}
+footer{
+  background-color: red;
 }
